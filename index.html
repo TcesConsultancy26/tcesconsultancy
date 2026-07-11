@@ -1,323 +1,53 @@
-div>
-    </<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TCES Consultancy - Your Trusted Partner</title>
-    <!-- Google Fonts for professional typography -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    
-    <style>
-        /* --- Design Tokens & Resets --- */
-        :root {
-            --primary: #1e3a8a;       /* Deep Trust Blue */
-            --primary-hover: #1d4ed8; /* Brighter Blue */
-            --text-dark: #1f2937;     /* Off-black for readability */
-            --text-light: #4b5563;    /* Slate gray for body text */
-            --bg-light: #f8fafc;      /* Soft light background */
-            --white: #ffffff;
-        }
+<section id="about">
+    <h2>About TCES Consultancy</h2>
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    <p>
+        <strong>TCES Consultancy – The Complete Employment Solution</strong> was established in 2026 as a professionally managed manpower supply and recruitment consultancy. We are committed to providing reliable manpower solutions, labour contract services, and placement support to industries and organizations across Odisha.
+    </p>
 
-        body {
-            font-family: 'Inter', sans-serif;
-            color: var(--text-dark);
-            background-color: var(--bg-light);
-            line-height: 1.6;
-        }
+    <p>
+        Our head office is located at <strong>At-Loisingha, District Balangir, Odisha – 767020</strong>. We proudly serve clients across Balangir, Bargarh, Sambalpur, Jharsuguda, Sonepur, Rayagada, Kalahandi, Kandhamal, Nuapada, Malkangiri, Sundargarh, Koraput, Boudh, and other districts of Odisha.
+    </p>
 
-        .container {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
+    <p>
+        Our dedicated team specializes in Administration, Human Resources, Recruitment, Marketing, Business Development, Site Operations, and Legal & Statutory Compliance. We provide skilled, semi-skilled, and unskilled manpower, including Graduates, Diploma Engineers, ITI candidates, Housekeeping Staff, Executive Drivers, Supervisors, and Industrial Workforce.
+    </p>
 
-        /* --- Navbar --- */
-        header {
-            background-color: var(--white);
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
+    <p>
+        Our mission is to deliver quality manpower services with professionalism, integrity, and customer satisfaction while building long-term relationships with both employers and job seekers.
+    </p>
+</section>
 
-        .nav-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            height: 70px;
-        }
+<section id="ceo-message">
+    <h2>Message from the Managing Director & CEO</h2>
 
-        .logo {
-            font-size: 24px;
-            font-weight: 700;
-            color: var(--primary);
-            text-decoration: none;
-        }
+    <h3>Mr. Sumit Ku. Nanda</h3>
+    <p><strong>Managing Director & Chief Executive Officer (MD & CEO)</strong></p>
 
-        .nav-links {
-            display: flex;
-            list-style: none;
-            gap: 20px;
-        }
+    <p>
+        Dear Applicants, Parents, and Well-Wishers,
+    </p>
 
-        .nav-links a {
-            text-decoration: none;
-            color: var(--text-light);
-            font-weight: 500;
-            transition: color 0.3s;
-        }
+    <p>
+        It gives me immense pleasure to welcome you to <strong>TCES Consultancy</strong>.
+        Our vision is to empower educated youth from both rural and urban communities by helping them secure meaningful employment opportunities in the private sector.
+    </p>
 
-        .nav-links a:hover {
-            color: var(--primary);
-        }
+    <p>
+        We are committed to providing professional career guidance, ethical recruitment services, and reliable placement assistance. Our objective is not only to help candidates find jobs but also to build successful careers while supporting industries with competent and dependable manpower.
+    </p>
 
-        /* --- Hero Section --- */
-        .hero {
-            background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
-            padding: 100px 0;
-            text-align: center;
-        }
+    <p>
+        We sincerely thank our clients, applicants, parents, and well-wishers for their trust and continued support.
+    </p>
 
-        .hero h1 {
-            font-size: 48px;
-            font-weight: 700;
-            color: var(--primary);
-            margin-bottom: 15px;
-        }
+    <h3>Welcome to TCES Consultancy – The Gateway to Your Bright Future!</h3>
 
-        .hero p {
-            font-size: 20px;
-            color: var(--text-light);
-            margin-bottom: 30px;
-            font-weight: 300;
-        }
+    <p><strong>Warm Regards,</strong></p>
 
-        .btn {
-            display: inline-block;
-            background-color: var(--primary);
-            color: var(--white);
-            padding: 12px 30px;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: background-color 0.3s;
-        }
-
-        .btn:hover {
-            background-color: var(--primary-hover);
-        }
-
-        /* --- Services Section --- */
-        .services-section {
-            padding: 80px 0;
-            background-color: var(--white);
-        }
-
-        .section-title {
-            text-align: center;
-            font-size: 32px;
-            margin-bottom: 50px;
-            position: relative;
-            color: var(--primary);
-        }
-
-        .services-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
-
-        .service-card {
-            background-color: var(--bg-light);
-            padding: 40px 30px;
-            border-radius: 8px;
-            text-align: center;
-            border: 1px solid #e2e8f0;
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-
-        .service-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
-        }
-
-        .service-icon {
-            font-size: 40px;
-            margin-bottom: 20px;
-            display: inline-block;
-        }
-
-        .service-card h3 {
-            font-size: 20px;
-            margin-bottom: 15px;
-            color: var(--primary);
-        }
-
-        .service-card p {
-            color: var(--text-light);
-            font-size: 15px;
-        }
-
-        /* --- Contact Section --- */
-        .contact-section {
-            padding: 80px 0;
-            text-align: center;
-            background-color: var(--bg-light);
-        }
-
-        .contact-box {
-            background: var(--white);
-            padding: 40px;
-            border-radius: 8px;
-            display: inline-block;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
-            border: 1px solid #e2e8f0;
-        }
-
-        .contact-box p {
-            font-size: 18px;
-            margin-bottom: 15px;
-        }
-
-        .contact-box a {
-            color: var(--primary);
-            text-decoration: none;
-            font-weight: 600;
-        }
-
-        /* --- Footer --- */
-        footer {
-            background-color: var(--primary);
-            color: rgba(255, 255, 255, 0.8);
-            text-align: center;
-            padding: 30px 0;
-            font-size: 14px;
-        }
-
-        /* Responsive Breakpoint */
-        @media (max-width: 768px) {
-            .hero h1 { font-size: 36px; }
-            .hero p { font-size: 18px; }
-            .nav-links { display: none; } /* Keeps it simple for mobile initially */
-        }
-    </style>
-</head>
-<body>
-
-    <!-- Header / Navbar -->
-    <header>
-        <div class="container nav-container">
-            <a href="#" class="logo">TCES</a>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <h1>Welcome to TCES Consultancy</h1>
-            <p>Your Trusted Consultancy Partner</p>
-            <a href="#contact" class="btn">Get Started Today</a>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="services-section">
-        <div class="container">
-            <h2 class="section-title">Our Services</h2>
-            <div class="services-grid">
-                
-                <!-- Card 1 -->
-                <div class="service-card">
-                    <span class="service-icon">💼</span>
-                    <h3>Business Consultancy</h3>
-                    <p>Strategic planning, market analysis, and tailored growth solutions to scale your business operations efficiently.</p>
-                </div>
-
-                <!-- Card 2 -->
-                <div class="service-card">
-                    <span class="service-icon">🚀</span>
-                    <h3>Career Guidance</h3>
-                    <p>Personalized mentorship, resume building, and career mapping strategies to help you land your dream role.</p>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="service-card">
-                    <span class="service-icon">🎓</span>
-                    <h3>Education Support</h3>
-                    <p>Comprehensive academic advice, institutional application assistance, and pathway planning for students.</p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-box">
-                <p>Have questions? Let's discuss how we can help you thrive.</p>
-                <p>Email us at: <a href="mailto:tcesconsultancy@gmail.com">tcesconsultancy@gmail.com</a></p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 TCES Consultancy. All Rights Reserved.</p>
-        </div>
-    </footer>
-
-</body>
-</html>>
-</body>
-</html>
-# TCES Consultancy
-|Your Trusted Partner in Industrial Manpower Solutions|
-
----
-
- About Us
-We proudly introduce ourselves as a premier manpower supply service business, established in 2026 as a proprietary concern. TCES Consultancy is a well-established and leading manpower service provider within the industrial sector. 
-
-Operating actively from our head office in **Loisingha, Balangir, Odisha**, we exclusively mistake Manpower, Labour Contract, and related activities across key industrial regions, including:
- Balangir & Bargarh
- Sambalpur & Jharsuguda
- Sonepur & Rayagada
- Kalahandi & Kandhamal
- Nuapada, Malkangiri, Sundargarh, Koraput, and Boudh
-
- Our Team Structure
-We take pride in our young, energetic, experienced, and result-oriented integrated follow-up teams. We operate with 5 dedicated, specialized departments to ensure smooth operations:
-1. Administration Team**
-2. Human Resources Team**
-3. Marketing Team**
-4. Business Associates / Site Supervisors
-5. Legal & Statutory Records Team**
-
----
-<head>
-    <meta charset="UTF-8">
-    <title>My GitHub Website</title>
-    <link rel="icon" type="image/png" href="favicon.png">
-</head>
-
-
-
-
-
+    <p>
+        <strong>Mr. Sumit Ku. Nanda</strong><br>
+        Managing Director & Chief Executive Officer (MD & CEO)<br>
+        TCES Consultancy
+    </p>
+</section>
